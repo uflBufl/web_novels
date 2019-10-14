@@ -7,6 +7,7 @@ ruby '2.3.3'
 gem 'rails', '~> 5.2.3'
 gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt',         '3.1.12'
+gem 'rubyzip', '~> 1.2.3'
 # gem 'faker',          '1.7.3'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
@@ -54,7 +55,7 @@ end
 # end
 
 group :development do
-  gem 'sqlite3', '~> 1.3.13'
+  # gem 'sqlite3', '~> 1.3.13'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
 end
