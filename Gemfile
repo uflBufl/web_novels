@@ -63,7 +63,7 @@ group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
   # Use Puma as the app server
-  gem 'puma', '~> 3.11'
+  gem 'puma', '~> 4.3'
 end
 
 group :test do
